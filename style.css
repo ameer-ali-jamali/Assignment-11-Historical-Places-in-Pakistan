@@ -13,7 +13,7 @@ img{
     }
 h1{
     display: grid;
-    grid: 1;
     justify-content: center;
-    grid-template-columns: 1fr;
+    background-color: rgb(90 84 239);
+    color: #191c17;
 }
