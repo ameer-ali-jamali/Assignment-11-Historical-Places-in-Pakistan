@@ -9,6 +9,7 @@
 img{
     object-fit: cover;
     width: 100%;
+    border: solid 1px;
     height: 100%;
     }
 h1{
