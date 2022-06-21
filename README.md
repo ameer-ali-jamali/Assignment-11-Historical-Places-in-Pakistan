@@ -1,2 +1,1 @@
-# Assignment-13-create-website-page-fully-responsive-html-css
-with-css-grid
+Simple Html page with images and details of images.
