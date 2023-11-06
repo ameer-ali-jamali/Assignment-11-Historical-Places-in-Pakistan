@@ -1,24 +1,24 @@
-.container{
-    /* display: grid;
-    
-    grid-template-columns: 1fr 1fr 1fr;
-    row-gap: -14px;
-    justify-content: space-between;
-    column-gap: -3px;
-        gap: 9px; */
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
+.place-card {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
 }
-img{
-    object-fit: cover;
-    width: 100%;
-    border: solid 1px;
-    height: 100%;
-    }
-h1{
-    display: grid;
-    justify-content: center;
-    background-color: rgb(90 84 239);
-    color: #191c17;
+
+.place-card img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.2s;
+}
+
+.place-card img:hover {
+  transform: scale(1.1);
+}
+.hover-card {
+  transition: transform 0.2s;
+}
+
+.hover-card:hover {
+  transform: scale(1.03);
 }
